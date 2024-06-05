@@ -2,12 +2,12 @@
 import aesehi from '../../assets/aesehi.png'
 function Hero() {
   return (
-    <div>
+    <section className=''>
       <div className="flex flex-col justify-between p-10  text-custom-db gap-10 ">
-        <div className="font-silverqueen text-9xl text-left font-bold ">
+        <div className="font-silverqueen text-9xl text-left font-bold tracking-wider">
           Architect Your
         </div>
-        <div className="font-silverqueen text-9xl  text-right font-bold">
+        <div className="font-silverqueen text-9xl  text-right font-bold tracking-wider">
           Idea to Design
         </div>
       </div>
@@ -15,7 +15,8 @@ function Hero() {
       <div className="flex flex-row gap-10">
         <div className="flex-1">
             <div className="flex flex-col gap-10">
-                <button className="border p-2 pl-4 pr-4 rounded-full text-custom-db bg-custom-premium w-40 font-bold text-3xl">
+            <button className=" w-48 border p-2 pl-4 pr-4 rounded-full text-custom-db bg-custom-premium font-bold text-3xl tracking-wider">
+
                     Get Started
                 </button>
                 <span className="text-xl font-[Roboto]">
@@ -26,13 +27,12 @@ function Hero() {
         <div className="flex-2 flex flex-row">
             <img src={aesehi} alt="" />
             <img src={aesehi} alt="" className='w-96'/>
-            {/* <img src={aesehi} alt="" /> */}
         </div>
 
       </div>
         
 
-    </div>
+    </section>
   )
 }
 

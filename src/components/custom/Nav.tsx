@@ -12,7 +12,7 @@ function Nav() {
           <li>
             <a
               href="#"
-              className="text-gray-700 font-silverqueen font-bold"
+              className="text-gray-700 font-silverqueen font-bold tracking-wider"
             >
               Home
             </a>
@@ -20,7 +20,7 @@ function Nav() {
           <li>
             <a
               href="#"
-              className="text-gray-700 font-silverqueen font-bold"
+              className="text-gray-700 font-silverqueen font-bold tracking-wider"
             >
               Blogs
             </a>
@@ -28,7 +28,7 @@ function Nav() {
           <li>
             <a
               href="#"
-              className="text-gray-700 font-silverqueen font-bold"
+              className="text-gray-700 font-silverqueen font-bold tracking-wider"
             >
               Services
             </a>
@@ -36,7 +36,7 @@ function Nav() {
           <li>
             <a
               href="#"
-              className="text-gray-700 font-silverqueen font-bold"
+              className="text-gray-700 font-silverqueen font-bold tracking-wider"
             >
               Galary
             </a>
