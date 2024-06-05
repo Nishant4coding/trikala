@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-premium': '#D1C1A4',
+        'custom-db': '#170800',
+        'custom-lb': '#774931',
+        'custom-bg': '#DEDEDE',
+      },
+      fontFamily: {
+        'silver-queen': ['"Silver Queen"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
