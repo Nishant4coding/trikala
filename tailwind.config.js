@@ -13,7 +13,7 @@ export default {
         'custom-bg': '#DEDEDE',
       },
       fontFamily: {
-        'silver-queen': ['"Silver Queen"', 'sans-serif'],
+        'silverqueen': ['"Silver Queen"', 'sans-serif'],
       },
     },
   },

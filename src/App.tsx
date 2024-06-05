@@ -11,8 +11,9 @@ function App() {
 
 
   return (
-    <div>
+    <div className='bg-custom-bg min-h-screen pl-20 pr-20 font-silverqueen'>
     <Nav/>
+    <hr className='border-custom-lb'/>
     <Hero/>
     </div>
   )
