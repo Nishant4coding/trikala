@@ -2,8 +2,8 @@
 import aesehi from '../../assets/aesehi.png'
 function Hero() {
   return (
-    <section className=''>
-      <div className="flex flex-col justify-between p-10  text-custom-db gap-10 ">
+    <section className='px-20'>
+      <div className="flex flex-col justify-between  text-custom-db gap-10 ">
         <div className="font-silverqueen text-9xl text-left font-bold tracking-wider">
           Architect Your
         </div>
