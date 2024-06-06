@@ -2,7 +2,6 @@
 // @ts-ignore
 import './App.css'
 import Hero from '@/components/custom/Hero'
-// import Lead from '@/components/custom/Lead'
 
 
 // import Footer from './components/custom/Footer'
@@ -13,12 +12,11 @@ function App() {
 
 
   return (
-    <div className='bg-custom-bg min-h-screen  font-silverqueen'>
-      <Nav/>
-      <hr className='border-custom-premium'/>
-   <Hero/>
-   {/* <Lead/> */}
-   <Digit/>
+    <div className='bg-custom-bg min-h-screen px-[5vw] font-silverqueen'>
+      <Nav />
+      {/* <hr className='border-custom-premium' /> */}
+      <Hero />
+      <Digit />
     </div>
   )
 }
