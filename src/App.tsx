@@ -1,13 +1,13 @@
 
 // @ts-ignore
 import './App.css'
-// import Hero from '@/components/custom/Hero'
+import Hero from '@/components/custom/Hero'
 // import Lead from '@/components/custom/Lead'
 
 
 // import Footer from './components/custom/Footer'
-// import Nav from './components/custom/Nav'
-// import Digit from './components/custom/Digit'
+import Nav from './components/custom/Nav'
+import Digit from './components/custom/Digit'
 import ImageCrowsell from './components/custom/ImageCarousel';
 import image from '@/assets/aesehi.png'
 
@@ -22,12 +22,11 @@ function App() {
     { image: image, alt: 'Image 6' }
   ];
   return (
-    <div className='bg-custom-bg min-h-screen font-silverqueen'>
-      {/* <Nav/> */}
+    <div className='bg-custom-bg min-h-screen font-silverqueen px-[5vw]'>
+      <Nav/>
       <hr className='border-custom-premium'/>
-   {/* <Hero/> */}
-   {/* <Lead/> */}
-   {/* <Digit/> */}
+   <Hero/>
+   <Digit/>
 
 
    <ImageCrowsell items={items}/>

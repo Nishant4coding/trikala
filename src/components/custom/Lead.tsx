@@ -1,7 +1,7 @@
 function Lead() {
   return (
     <section>
-      <div className="w p-4 px-40 mx-auto bg-custom-premium rounded-lg shadow-md items-center">
+      <div className="w p-4 px-40 mx-auto bg-custom-premium  shadow-md items-center">
         <form className="flex flex-row justify-between items-center">
           <div className="flex flex-col mb-4">
             <label htmlFor="name" className="text-center mb-2 font-semibold">Name</label>
