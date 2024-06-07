@@ -23,7 +23,7 @@ function App() {
     { image: image, alt: 'Image 6' }
   ];
   return (
-    <div className='bg-custom-bg min-h-screen font-silverqueen px-[5vw]'>
+    <div className='bg-custom-bg min-h-screen font-custom px-[5vw]'>
       <Nav/>
       <hr className='border-custom-premium'/>
    <Hero/>

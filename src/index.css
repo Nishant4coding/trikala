@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: 'Silver Queen'; /* Replace with your font name */
+    src: url('/fonts/Silver-Queen.otf') format('otf');/* Replace with your font file path and format */
+         /* url('/fonts/YourCustomFontFile.woff') format('woff');  */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Apply the custom font globally */
+  body {
+    @apply font-custom;
+  }
