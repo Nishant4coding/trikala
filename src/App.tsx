@@ -10,6 +10,7 @@ import Nav from './components/custom/Nav'
 import Digit from './components/custom/Digit'
 import ImageCrowsell from './components/custom/ImageCarousel';
 import image from '@/assets/aesehi.png'
+import BlendImage from './components/custom/BlendImage';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
 
 
    <ImageCrowsell items={items}/>
+   <BlendImage/>
     </div>
   )
 }
