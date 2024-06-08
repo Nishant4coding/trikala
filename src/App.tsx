@@ -12,7 +12,7 @@ import ImageCrowsell from './components/custom/ImageCarousel';
 import image from '@/assets/aesehi.png'
 import BlendImage from './components/custom/BlendImage';
 import SwitchingTabs from './components/custom/SwitchingTab';
-import Testimonials from './components/custom/Testimonials';
+// import Testimonials from './components/custom/Testimonials';
 import Landing from './Pages/Landing';
 
 function App() {

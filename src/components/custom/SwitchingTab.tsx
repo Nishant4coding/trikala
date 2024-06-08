@@ -28,9 +28,18 @@ const SwitchingTabs: React.FC = () => {
           </div>
         );
       case 'exterior':
-        return <div className="text-center p-4">Exterior content goes here</div>;
+        return (<div className="flex justify-center ">
+              <TabContent title="Royal & Elegant 3 BHK" description="Add texture and magnificent touch." />
+            <TabContent title="Contemporary & Classy 4 BHK" description="Classic and crisp geometric designs." />
+            <TabContent title="Classic Indian Bedroom" description="Bring in traditional and exemplary serenity." />
+        </div>
+    )
       case 'floorDesign':
-        return <div className="text-center p-4">Floor Design content goes here</div>;
+        return <div className=" flex justify-center "> 
+        <TabContent title="Royal & Elegant 3 BHK" description="Add texture and magnificent touch." />
+        <TabContent title="Contemporary & Classy 4 BHK" description="Classic and crisp geometric designs." />
+        <TabContent title="Classic Indian Bedroom" description="Bring in traditional and exemplary serenity." />
+        </div>;
       default:
         return null;
     }
