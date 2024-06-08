@@ -26,7 +26,7 @@ function Hero() {
             </span>
           </div>
         </div>
-        <div className="flex-2 flex flex-row">
+        <div className="flex-2 flex flex-row gap-5">
           <img src={aesehi} alt="" />
           <img src={aesehi} alt="" className='w-96' />
         </div>

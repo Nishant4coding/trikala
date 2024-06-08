@@ -47,21 +47,21 @@ const SwitchingTabs: React.FC = () => {
 
   return (
     <div className="p-8 bg-custom-bg">
-      <div className="flex justify-center mb-8">
+      <div className="flex text-white justify-center gap-20 text-2xl font-bold mb-8">
         <button
-          className={`px-4 py-2 mx-2 rounded ${activeTab === 'interior' ? 'bg-custom-premium' : 'bg-gray-300'}`}
+          className={`px-4 py-2 mx-2 rounded-full ${activeTab === 'interior' ? 'bg-custom-lb text-white' : 'bg-custom-premium text-black'}`}
           onClick={() => setActiveTab('interior')}
         >
           Interior
         </button>
         <button
-          className={`px-4 py-2 mx-2 rounded ${activeTab === 'exterior' ? 'bg-custom-premium' : 'bg-gray-300'}`}
+          className={`px-4 py-2 mx-2 rounded-full ${activeTab === 'exterior' ? 'bg-custom-lb text-white' : 'bg-custom-premium text-black'}`}
           onClick={() => setActiveTab('exterior')}
         >
           Exterior
         </button>
         <button
-          className={`px-4 py-2 mx-2 rounded ${activeTab === 'floorDesign' ? 'bg-custom-premium' : 'bg-gray-300'}`}
+          className={`px-4 py-2 mx-2 rounded-full ${activeTab === 'floorDesign' ? 'bg-custom-lb text-white' : 'bg-custom-premium text-black'}`}
           onClick={() => setActiveTab('floorDesign')}
         >
           Floor Design
