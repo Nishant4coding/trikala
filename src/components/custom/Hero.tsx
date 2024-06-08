@@ -4,7 +4,7 @@ import Lead from '@/components/custom/Lead'
 
 function Hero() {
   return (
-    <section className='min-h-screen'>
+    <section className='min-h-screen p-[] font-custom'>
       <div className="flex flex-col justify-between  text-custom-db gap-10 ">
         <div className="font-silverqueen text-9xl text-left font-bold tracking-wider">
           Architect Your

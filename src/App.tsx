@@ -11,6 +11,9 @@ import Digit from './components/custom/Digit'
 import ImageCrowsell from './components/custom/ImageCarousel';
 import image from '@/assets/aesehi.png'
 import BlendImage from './components/custom/BlendImage';
+import SwitchingTabs from './components/custom/SwitchingTab';
+import Testimonials from './components/custom/Testimonials';
+import Landing from './Pages/Landing';
 
 function App() {
 
@@ -23,7 +26,7 @@ function App() {
     { image: image, alt: 'Image 6' }
   ];
   return (
-    <div className='bg-custom-bg min-h-screen font-custom px-[5vw]'>
+    <div className='bg-custom-bg min-h-screen font-[Roboto] px-[5vw]'>
       <Nav/>
       <hr className='border-custom-premium'/>
    <Hero/>
@@ -32,6 +35,8 @@ function App() {
 
    <ImageCrowsell items={items}/>
    <BlendImage/>
+   <SwitchingTabs/>
+   <Landing/>
     </div>
   )
 }
