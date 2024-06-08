@@ -1,8 +1,8 @@
 function Lead() {
   return (
     <section>
-      <div className="w p-4 px-40 mx-auto bg-custom-premium  shadow-md items-center">
-        <form className="flex flex-row justify-between items-center">
+      <div className=" p-4 px-40 mx-auto bg-custom-premium  shadow-md items-center">
+        <form className="flex lg:flex-row flex-col justify-between items-center">
           <div className="flex flex-col mb-4">
             <label htmlFor="name" className="text-center mb-2 font-semibold">Name</label>
             <input
@@ -35,7 +35,7 @@ function Lead() {
           </div>
         <button
           type="submit"
-          className="w-auto h-full bg-custom-db text-custom-premium py-2 px-8 text-2xl  rounded-full"
+          className="w-auto h-full bg-custom-db text-custom-premium py-2 px-8 lg:text-2xl text-lg rounded-full"
         >
           Submit
         </button>
