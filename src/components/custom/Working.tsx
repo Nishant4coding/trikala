@@ -21,10 +21,18 @@ const Working: React.FC = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
   };
 
+  const handleClick = (index: number) => {
+    setCurrentIndex(index);
+  };
+
   return (
     <div className="w-full mx-auto mt-8">
+      <div className='flex flex-row justify-between gap-20'>
+      <h1 className='text-left text-9xl font-custom flex-none'>Our method of <br />working</h1>
+      <span className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorum nihil tempore corrupti culpa blanditiis, iusto modi nam, dignissimos quia enim ipsum ipsa reiciendis provident architecto sequi ab nisi commodi?</span>
+      </div>
       <div className="relative flex items-left">
-        <button onClick={prevSlide} className="absolute right-10  z-10 p-2 bg-gray-200 rounded-full">
+        <button onClick={prevSlide} className="absolute text-2xl text-white right-16  z-10 p-2 bg-custom-lb w-12 h-12 rounded-full">
           &lt;
         </button>
         <div className="flex overflow-hidden w-full justify-center mt-20">
@@ -33,7 +41,7 @@ const Working: React.FC = () => {
               key={index}
               className={`transition-all duration-500 ease-in-out p-2 h-[50vh]   ${
                 index === currentIndex ? 'w-4/5 ' : 'w-1/6 '
-              }`}
+              }`} onClick={()=>handleClick(index)}
             >
               <img
                 src={image}
@@ -45,7 +53,7 @@ const Working: React.FC = () => {
             </div>
           ))}
         </div>
-        <button onClick={nextSlide} className="absolute right-0 z-10 p-2 bg-gray-200 rounded-full">
+        <button onClick={nextSlide} className="absolute text-2xl right-0 z-10 p-2 bg-gray-200 rounded-full w-12 h-12">
           &gt;
         </button>
       </div>

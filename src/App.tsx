@@ -10,7 +10,7 @@ import Nav from './components/custom/Nav'
 import Digit from './components/custom/Digit'
 import ImageCrowsell from './components/custom/ImageCarousel';
 import image from '@/assets/aesehi.png'
-import WorkingMethodCarousel from './components/custom/Working';
+// import WorkingMethodCarousel from './components/custom/Working';
 import Working from './components/custom/Working';
 // import BlendImage from './components/custom/BlendImage'
 // import Testimonials from './components/custom/Testimonials';

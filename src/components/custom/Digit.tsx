@@ -43,22 +43,22 @@ function Digit() {
       <h1 className='text-9xl font-custom text-center'>At a Glance</h1>
     <div className="relative h-[40vw] lg:bg-cover lg:bg-center text-white" style={{ backgroundImage: `url(${bg})`, backgroundRepeat: 'no-repeat', opacity:20 }}>
       {/* <IconCloud iconSlugs={slugs} /> */}
-      <div className="absolute lg:top-[5vw] right-0 bg-[#774931] p-6 rounded-lg shadow-lg lg:w-52 w-full font-[Roboto] text-center lg:mr-[-70px] flex flex-col lg:gap-16 gap-5 ">
+      <div className="absolute lg:top-[3vw] right-0 bg-[#774931] p-6 rounded-lg shadow-lg lg:w-40 w-full font-[Roboto] text-center lg:mr-[-70px] flex flex-col lg:gap-10 gap-5 ">
         <h2 className="lg:text-2xl text-xl font-bold text-left">We are <br /> proven by</h2>
         <div className="">
-          <span className='lg:text-7xl text-lg font-semibold'>
+          <span className='lg:text-5xl text-lg font-semibold'>
             <NumberTicker value={200} />
           </span>
           <h3 className="text-xs font-semibold">Total Work</h3>
         </div>
         <div className="">
-          <span className='lg:text-7xl text-lg font-semibold'>
+          <span className='lg:text-5xl text-lg font-semibold'>
             <NumberTicker value={200} />
           </span>
           <h3 className="text-xs font-semibold">Total Work</h3>
         </div>
         <div className="lg:mb-4 mb-0">
-          <span className='lg:text-7xl text-lg font-semibold'>
+          <span className='lg:text-5xl text-lg font-semibold'>
             <NumberTicker value={200} />
           </span>
           <h3 className="text-xs font-semibold">Total Work</h3>
