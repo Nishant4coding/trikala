@@ -3,9 +3,9 @@ import logo from '../../assets/logo.png'
 function Nav() {
   return (
     <nav className=" py-4 font-custom">
-      <div className="container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8">
+      <div className="container  flex items-center justify-between ">
         <a href="/" className="flex items-center space-x-3">
-          <img src={logo} alt="Logo" className="h-10 sm:h-20" />
+          <img src={logo} alt="Logo" className="h-8 sm:h-20" />
         </a>
         <div className="hidden md:flex md:items-center">
           <ul className="flex flex-row gap-4 sm:gap-10 md:gap-20 text-sm sm:text-lg md:text-xl">
