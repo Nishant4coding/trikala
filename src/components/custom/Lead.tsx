@@ -1,6 +1,6 @@
 function Lead() {
   return (
-    <section className=" w-full justify-center">
+    <section className=" w-full -px-[10vw] justify-center overflow-hidden">
       <div className=" p-10 font-[Roboto] px-40 mx-auto bg-[#774931]  shadow-md items-center">
         <form className="flex lg:flex-row flex-col justify-between items-center">
         
