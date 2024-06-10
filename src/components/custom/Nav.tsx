@@ -2,7 +2,7 @@ import logo from '../../assets/logo.png'
 
 function Nav() {
   return (
-    <nav className="bg-custom-bg py-4 font-custom">
+    <nav className=" py-4 font-custom">
       <div className="container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8">
         <a href="/" className="flex items-center space-x-3">
           <img src={logo} alt="Logo" className="h-10 sm:h-20" />

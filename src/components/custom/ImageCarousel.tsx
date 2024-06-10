@@ -9,7 +9,7 @@ interface CarouselProps {
   items: CarouselItem[];
 }
 
-const Carousel: React.FC<CarouselProps> = ({ items }) => {
+const ImageCarousel: React.FC<CarouselProps> = ({ items }) => {
   const [activeIndex, setActiveIndex] = useState(Math.floor(items.length / 2));
 
   const handlePrevClick = () => {
@@ -21,12 +21,14 @@ const Carousel: React.FC<CarouselProps> = ({ items }) => {
   };
 
   return (
+    <section className='mt-32'>
+      <h1 className='text-9xl font-custom text-center'>Expertise</h1>
     <div className="flex items-center justify-center w-full mt-8 relative">
       <button 
         onClick={handlePrevClick} 
-        className="carousel-button bg-black text-white p-2 absolute left-4 z-20"
+        className="bg-gray-600 bg-opacity-20 text-custom-db rounded-full font-bold p-2 absolute left-4 z-20"
       >
-        Prev
+        &lt;--Prev
       </button>
       <div className="relative w-full overflow-hidden">
         <div
@@ -48,12 +50,13 @@ const Carousel: React.FC<CarouselProps> = ({ items }) => {
       </div>
       <button 
         onClick={handleNextClick} 
-        className="carousel-button bg-black text-white p-2 absolute right-4 z-20"
+        className=" bg-gray-600 bg-opacity-20 text-custom-db rounded-full font-bold p-2 absolute right-4 z-20"
       >
-        Next
+        Next --&gt;
       </button>
     </div>
+    </section>
   );
 };
 
-export default Carousel;
+export default ImageCarousel;

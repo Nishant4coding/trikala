@@ -10,12 +10,15 @@ import Nav from './components/custom/Nav'
 import Digit from './components/custom/Digit'
 import ImageCrowsell from './components/custom/ImageCarousel';
 import image from '@/assets/aesehi.png'
-import BlendImage from './components/custom/BlendImage';
-import SwitchingTabs from './components/custom/SwitchingTab';
+// import BlendImage from './components/custom/BlendImage'
 // import Testimonials from './components/custom/Testimonials';
-import Landing from './Pages/Landing';
+// import Landing from './Pages/Landing';
+// import Featured from './components/custom/Featured';
+// import IconCloud from './components/ui/icon-cloud';
+// import logo from '@/assets/logo.png';
 
 function App() {
+  // const logos = [logo, logo, logo];
 
   const items = [
     { image: image, alt: 'Image 1' },
@@ -26,18 +29,20 @@ function App() {
     { image: image, alt: 'Image 6' }
   ];
   return (
-    <div className='bg-custom-bg min-h-screen font-[Roboto] px-[5vw]'>
+    <div className='flex flex-col bg-[#E1D6C0] min-h-screen font-[Roboto] px-[5vw]'>
       <Nav/>
       <hr className='border-custom-premium'/>
    <Hero/>
+   {/* <Featured/> */}
    <Digit/>
 
 
    <ImageCrowsell items={items}/>
-   <BlendImage/>
-   <SwitchingTabs/>
-   <Landing/>
-    </div>
+   {/* <BlendImage/> */}
+   {/* <SwitchingTabs/> */}
+   {/* <Landing/> */}
+   {/* <IconCloud logos={logos} /> */}
+   </div>
   )
 }
 

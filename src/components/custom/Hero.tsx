@@ -1,18 +1,27 @@
 import aesehi from '../../assets/aesehi.png'
 import Lead from '@/components/custom/Lead'
+import hero1 from '@/assets/hero1.png'
+import hero2 from '@/assets/hero2.png'
+import hero3 from '@/assets/hero3.png'
 
 
 function Hero() {
   return (
-    <section className='min-h-screen p-[] font-custom mt-10 '>
+    <section className='min-h-screen font-custom mt-10 '>
       <div className="flex flex-col justify-between  text-custom-db lg:gap-10 gap-5 ">
-        <div className="font-silverqueen lg:text-9xl text-5xl  text-left font-bold tracking-wider">
+        <div className='flex flex-row justify-between'>
+        <div className="font-silverqueen lg:text-[160px] text-5xl  text-left font-bold tracking-wider">
           Architect Your
         </div>
-        <div className="font-silverqueen  lg:text-9xl text-5xl text-right font-bold tracking-wider">
+        <img src={hero1} alt="" />
+        </div>
+          <div className='flex flex-row-reverse justify-between'>
+        <div className="font-silverqueen  lg:text-[160px] text-5xl text-right font-bold tracking-wider">
           Idea to Design
         </div>
+        <img src={hero2} alt="" />
       </div>
+      </div>  
 
       <div className="flex lg:flex-row flex-col   gap-10 mt-10">
         <div className="lg:flex-1  ">
@@ -26,9 +35,9 @@ function Hero() {
             </span>
           </div>
         </div>
-        <div className="flex-2 flex flex-row gap-5">
-          <img src={aesehi} alt="" />
-          <img src={aesehi} alt="" className='w-96 md:block hidden' />
+        <div className=" flex flex-row gap-5 w-2/3">
+          <img src={hero3} alt="" />
+          <img src={aesehi} alt="" className=' md:block hidden' />
         </div>
 
       </div>

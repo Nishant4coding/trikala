@@ -1,38 +1,45 @@
 function Lead() {
   return (
-    <section>
-      <div className=" p-4 px-40 mx-auto bg-custom-premium  shadow-md items-center">
+    <section className=" w-full justify-center">
+      <div className=" p-10 font-[Roboto] px-40 mx-auto bg-[#774931]  shadow-md items-center">
         <form className="flex lg:flex-row flex-col justify-between items-center">
-          <div className="flex flex-col mb-4">
-            <label htmlFor="name" className="text-center mb-2 font-semibold">Name</label>
+        
+            {/* <label htmlFor="name" className="text-center mb-2 font-semibold">Name</label> */}
             <input
               type="text"
               name="name"
               id="name"
               className="p-2 border border-gray-300 rounded-full text-center"
-              placeholder="Enter your name"
+              placeholder="Name"
             />
-          </div>
-          <div className="flex flex-col mb-4">
-            <label htmlFor="address" className=" text-center  mb-2 font-semibold">Address</label>
+         
+       
+            {/* <label htmlFor="address" className=" text-center  mb-2 font-semibold">Address</label> */}
             <input
-              type="text"
-              name="address"
-              id="address"
+              type="email"
+              name="email"
+              id="email"
               className="p-2 border border-gray-300 rounded-full text-center"
-              placeholder="Enter your address"
+              placeholder="Email"
             />
-          </div>
-          <div className="flex flex-col mb-4">
-            <label htmlFor="phone" className=" text-center mb-2 font-semibold">Phone Number</label>
+          
+         
+            {/* <label htmlFor="phone" className=" text-center mb-2 font-semibold">Phone Number</label> */}
             <input
               type="text"
               name="phone"
               id="phone"
               className="p-2 border border-gray-300 rounded-full text-center"
-              placeholder="Enter your phone number"
+              placeholder="Mobile No."
             />
-          </div>
+            <input
+              type="text"
+              name="location"
+              id="location"
+              className="p-2 border border-gray-300 rounded-full text-center"
+              placeholder="Location"
+            />
+      
         <button
           type="submit"
           className="w-auto h-full bg-custom-db text-custom-premium py-2 px-8 lg:text-2xl text-lg rounded-full"
