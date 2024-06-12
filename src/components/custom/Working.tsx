@@ -26,11 +26,15 @@ const Working: React.FC = () => {
   };
 
   return (
-    <div className="w-full mx-auto mt-8">
-      <div className='flex flex-row justify-between gap-20'>
-      <h1 className='text-left text-9xl font-custom flex-none '>Our method of <br />working</h1>
-      <span className='text-xl text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorum nihil tempore corrupti culpa blanditiis, iusto modi nam, dignissimos quia enim ipsum ipsa reiciendis provident architecto sequi ab nisi commodi?</span>
-      </div>
+    <div className="w-full mx-auto mt-8 md:mt-16">
+    <div className='flex flex-col md:flex-row justify-between gap-6 md:gap-20'>
+      <h1 className='text-left text-7xl md:text-6xl lg:text-9xl font-custom flex-none'>
+        Our method of <br />working
+      </h1>
+      <span className='text-sm md:text-xl text-justify'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorum nihil tempore corrupti culpa blanditiis, iusto modi nam, dignissimos quia enim ipsum ipsa reiciendis provident architecto sequi ab nisi commodi?
+      </span>
+    </div>
       <div className="relative flex items-left">
         <button onClick={prevSlide} className="absolute text-2xl text-white right-16  z-10 p-2 bg-custom-lb w-12 h-12 rounded-full">
           &lt;
