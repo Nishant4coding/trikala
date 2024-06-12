@@ -47,8 +47,8 @@ function Digit() {
         style={{ backgroundImage: `url(${bg})`, backgroundRepeat: "no-repeat" }}
       >
         <div className="flex flex-row justify-end items-center h-full">
-          <div className=" lg:top-[8vw] md:top-[3vw] top-[2vw] right-0 bg-[#774931] p-4 md:p-6 rounded-lg shadow-lg w-1/3 md:w-80 lg:w-40 font-[Roboto] text-center md:mr-[-70px] -mr-10 flex flex-col gap-5 md:gap-10">
-            <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-left">
+          <div className=" lg:top-[8vw] md:top-[3vw] top-[2vw] right-0 bg-[#774931] p-4 md:p-6 rounded-lg shadow-lg w-1/3 md:w-80 lg:w-40 font-[Roboto] text-center md:mr-[-70px] -mr-8 flex flex-col gap-5 md:gap-10">
+            <h2 className="text-md md:text-xl lg:text-2xl font-bold text-left">
               We are <br /> proven by
             </h2>
             <div className="">
