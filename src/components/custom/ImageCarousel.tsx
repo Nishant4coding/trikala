@@ -26,7 +26,7 @@ const ImageCarousel: React.FC<CarouselProps> = ({ items }) => {
 
   return (
     <section className='mt-16 md:mt-32'>
-      <h1 className='text-7xl md:text-6xl lg:text-9xl font-custom text-center'>Expertise</h1>
+      <h1 className='text-6xl md:text-6xl lg:text-9xl font-custom text-center'>Expertise</h1>
       <div className="flex items-center justify-center w-full mt-8 relative">
         <button 
           onClick={handlePrevClick} 

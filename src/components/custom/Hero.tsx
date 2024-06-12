@@ -1,4 +1,4 @@
-import React from 'react';
+
 import aesehi from '../../assets/aesehi.png';
 import Lead from '@/components/custom/Lead';
 import hero1 from '@/assets/hero1.png';

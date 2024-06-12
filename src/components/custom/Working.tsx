@@ -26,10 +26,10 @@ const Working: React.FC = () => {
   };
 
   return (
-    <div className="w-full mx-auto mt-8 md:mt-16">
+    <div className="max-h-screen w-full mx-auto mt-8 md:mt-16">
     <div className='flex flex-col md:flex-row justify-between gap-6 md:gap-20'>
-      <h1 className='text-left text-7xl md:text-6xl lg:text-9xl font-custom flex-none'>
-        Our method of <br />working
+      <h1 className='text-left text-6xl md:text-6xl lg:text-9xl font-custom flex-none'>
+        Our method of working
       </h1>
       <span className='text-sm md:text-xl text-justify'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorum nihil tempore corrupti culpa blanditiis, iusto modi nam, dignissimos quia enim ipsum ipsa reiciendis provident architecto sequi ab nisi commodi?
@@ -43,7 +43,7 @@ const Working: React.FC = () => {
           {images.map((image, index) => (
             <div
               key={index}
-              className={`transition-all duration-500 ease-in-out p-2 h-[50vh]   ${
+              className={`transition-all duration-500 ease-in-out p-2 lg:h-[50vh] h-[25vh]   ${
                 index === currentIndex ? 'w-4/5 ' : 'w-1/6 '
               }`} onClick={()=>handleClick(index)}
             >
