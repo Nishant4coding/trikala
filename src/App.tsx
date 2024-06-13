@@ -32,7 +32,7 @@ function App() {
     { image: image, alt: 'Image 6' }
   ];
   return (
-    <div className='flex flex-col bg-[#E1D6C0] min-h-screen font-[Roboto] px-[5vw] overflow-hidden lg:gap-10'>
+    <div className='flex flex-col bg-[#FFFAED] min-h-screen font-[Roboto] px-[5vw] overflow-hidden lg:gap-10'>
       <Nav/>
       {/* <hr className='border-custom-premium'/> */}
    <Hero/>

@@ -50,8 +50,8 @@ const thirdRow = reviews.slice(0, reviews.length / 2);
 
 const ReviewCard = ({
   img,
-  name,
-  username,
+  // name,
+  // username,
   body,
 }: {
   img: string;
@@ -63,7 +63,7 @@ const ReviewCard = ({
     
     <figure
       className={cn(
-        "relative lg:w-64 w-32 h-20 lg:h-32 cursor-pointer overflow-hidden rounded-xl border p-4 bg-cover bg-center",
+        "relative lg:w-64 w-32 h-20 lg:h-32 cursor-pointer overflow-hidden  p-4 bg-cover bg-center",
         // light styles
         "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
         // dark styles
