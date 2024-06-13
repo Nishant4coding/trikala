@@ -12,6 +12,7 @@ import ImageCrowsell from './components/custom/ImageCarousel';
 import image from '@/assets/aesehi.png'
 // import WorkingMethodCarousel from './components/custom/Working';
 import Working from './components/custom/Working';
+import Testimonials from './components/custom/Testimonials';
 // import BlendImage from './components/custom/BlendImage'
 // import Testimonials from './components/custom/Testimonials';
 // import Landing from './Pages/Landing';
@@ -45,6 +46,7 @@ function App() {
    {/* <Landing/> */}
    {/* <IconCloud logos={logos} /> */}
    <Working/>
+   <Testimonials/>
    </div>
   )
 }
