@@ -60,6 +60,7 @@ const ReviewCard = ({
   body: string;
 }) => {
   return (
+    
     <figure
       className={cn(
         "relative lg:w-64 w-32 h-20 lg:h-32 cursor-pointer overflow-hidden rounded-xl border p-4 bg-cover bg-center",
@@ -77,7 +78,10 @@ const ReviewCard = ({
 
 const Testimonials = () => {
   return (
-    <div className="relative flex h-full w-full -mx-[5vw] flex-col items-center justify-center py-20">
+    <div className="relative flex h-full w-full flex-col items-center justify-center py-20">
+       <h1 className="text-6xl md:text-6xl lg:text-9xl font-custom text-center">
+       End-to-end interior solutions
+      </h1>
       <Marquee pauseOnHover className="[--duration:20s]">
         {firstRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
