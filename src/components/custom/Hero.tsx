@@ -10,15 +10,15 @@ import hero5 from '@/assets/hero5.png';
 function Hero() {
   return (
     <section className='lg:min-h-screen font-custom'>
-      <div className="flex flex-col justify-between text-custom-db gap-5 lg:gap-10">
+      <div className="flex flex-col justify-between text-custom-db gap-5 lg:gap-10  h-[50vh]">
         <div className='flex flex-col lg:flex-row justify-between'>
-          <div className="font-silverqueen text-6xl md:text-6xl lg:text-[160px] text-left ">
+          <div className="font-silverqueen text-custom-db text-7xl md:text-6xl lg:text-[12em] l text-left tracking-wider">
             Architect Your
           </div>
           <img src={hero1} alt="" className='w-full lg:w-auto md:block hidden lg:h-full object-cover'/>
         </div>
         <div className='flex flex-col lg:flex-row-reverse justify-between'>
-          <div className="font-silverqueen text-6xl md:text-6xl lg:text-[160px] text-right ">
+          <div className="font-silverqueen text-7xl md:text-6xl lg:text-[12em] text-right tracking-wider">
             Idea to Design
           </div>
           <img src={hero2} alt="" className='w-full md:block hidden lg:w-auto lg:h-full object-cover'/>
@@ -34,13 +34,13 @@ function Hero() {
             <span className="text-base md:text-lg lg:text-xl font-[Roboto] text-justify">
               Signet Estate Group transforms complex development challenges into collaborative opportunities through a creative, flexible, and customized approach.
             </span>
-            <div className='flex flex-row justify-center gap-5 lg:gap-20'>
-              <img src={hero4} alt="" className='h-32 md:h-48 lg:h-full object-cover'/>
-              <img src={hero5} alt="" className='h-32 md:h-48 lg:h-full object-cover'/>
+            <div className='flex flex-row justify-center gap-5 lg:gap-'>
+              <img src={hero4} alt="" className='h-32 md:h-48 lg:h-full w-full object-cover'/>
+              <img src={hero5} alt="" className='h-32 md:h-48 lg:h-full w-full  object-cover'/>
             </div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row gap-5 w-full lg:w-3/5">
+        <div className="flex flex-col lg:flex-row gap-10 w-full lg:w-3/5">
           <img src={hero3} alt="" className='h-32 md:h-48 lg:h-full object-cover'/>
           <img src={aesehi} alt="" className='h-32 md:h-48 lg:h-full object-cover hidden md:block'/>
         </div>

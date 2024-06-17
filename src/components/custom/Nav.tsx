@@ -5,7 +5,7 @@ function Nav() {
     <nav className=" py-4 font-custom">
       <div className="container  flex items-center justify-between ">
         <a href="/" className="flex items-center space-x-3">
-          <img src={logo} alt="Logo" className="lg:h-6 h-20" />
+          <img src={logo} alt="Logo" className="lg:h-32 h-20" />
         </a>
         <div className="hidden md:flex md:items-center">
           <ul className="flex flex-row gap-4 sm:gap-10 md:gap-20 text-sm sm:text-lg md:text-xl">

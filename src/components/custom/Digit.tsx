@@ -43,7 +43,7 @@ function Digit() {
         At a Glance
       </h1>
       <div
-        className="relative h-[100vw] md:h-[40vw] bg-cover lg:bg-center text-white"
+        className="relative h-[100vw] md:h-[40vw] mr-[2.5vw] bg-cover bg-fit lg:bg-center text-white"
         style={{ backgroundImage: `url(${bg})`, backgroundRepeat: "no-repeat" }}
       >
         <div className="flex flex-row justify-end items-center h-full">

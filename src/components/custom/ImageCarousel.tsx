@@ -30,7 +30,7 @@ const ImageCarousel: React.FC<CarouselProps> = ({ items }) => {
       <div className="flex items-center justify-center w-full mt-8 relative">
         <button 
           onClick={handlePrevClick} 
-          className="bg-gray-600 bg-opacity-20 text-custom-db rounded-full font-bold p-2 absolute left-4 z-20"
+          className="bg-gray-600 bg-opacity-20 text-custom-db rounded-full font-bold p-2 absolute left-4 z-20 md:block hidden"
         >
           &lt;--Prev
         </button>
@@ -59,7 +59,7 @@ const ImageCarousel: React.FC<CarouselProps> = ({ items }) => {
         </div>
         <button 
           onClick={handleNextClick} 
-          className="bg-gray-600 bg-opacity-20 text-custom-db rounded-full font-bold p-2 absolute right-4 z-20"
+          className="bg-gray-600 bg-opacity-20 text-custom-db rounded-full font-bold p-2 absolute right-4 z-20 md:block hidden"
         >
           Next --&gt;
         </button>
