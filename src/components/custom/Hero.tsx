@@ -10,15 +10,15 @@ import hero5 from '@/assets/hero5.png';
 function Hero() {
   return (
     <section className='lg:min-h-screen font-custom'>
-      <div className="flex flex-col justify-between text-custom-db gap-5 lg:gap-10  h-[50vh]">
+      <div className="flex flex-col lg:justify-between text-custom-db gap-5 lg:gap-10  lg:h-[50vh]">
         <div className='flex flex-col lg:flex-row justify-between'>
-          <div className="font-silverqueen text-custom-db text-7xl md:text-6xl lg:text-[12em] l text-left tracking-wider">
+          <div className="font-silverqueen text-custom-db text-5xl md:text-6xl lg:text-[12em] l text-left tracking-wider">
             Architect Your
           </div>
           <img src={hero1} alt="" className='w-full lg:w-auto md:block hidden lg:h-full object-cover'/>
         </div>
         <div className='flex flex-col lg:flex-row-reverse justify-between'>
-          <div className="font-silverqueen text-7xl md:text-6xl lg:text-[12em] text-right tracking-wider">
+          <div className="font-silverqueen text-5xl md:text-6xl lg:text-[12em] text-right tracking-wider">
             Idea to Design
           </div>
           <img src={hero2} alt="" className='w-full md:block hidden lg:w-auto lg:h-full object-cover'/>
