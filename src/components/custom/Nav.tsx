@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.png'
+import logo from "../../assets/logo.png";
 
 function Nav() {
   return (
@@ -43,12 +43,11 @@ function Nav() {
             </li>
           </ul>
         </div>
-          <button className="w-auto border p-2 pl-4 pr-4 rounded-full font-[Roboto] text-white bg-[#774931] md:block hidden">
-              Start a Project --&gt;
-            </button>
+        {/* <button className="w-auto border p-2 pl-4 pr-4 rounded-full font-[Roboto] text-white bg-[#774931] md:block hidden">
+          Start a Project --&gt;
+        </button> */}
         <div className="md:hidden">
           <button className="text-gray-700 focus:outline-none">
-            
             <svg
               className="h-6 w-6"
               fill="none"
