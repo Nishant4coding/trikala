@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { cn } from "../../../lib/utils";
 import image1 from '@/assets/Digit.png'; // Ensure the path to the image is correct
 import image2 from '@/assets/aesehi.png'; // Ensure the path to the image is correct
@@ -6,12 +6,7 @@ import image3 from '@/assets/hero3.png'; // Ensure the path to the image is corr
 import image4 from '@/assets/hero4.png'; // Ensure the path to the image is correct
 
 const reviews = [
-  {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: image1,
-  },
+  
   {
     name: "Jill",
     username: "@jill",
@@ -54,7 +49,7 @@ const ReviewCard = ({
   return (
     <figure
       className={cn(
-        " lg:w-[12vw] w-[20vw] h-[12vh] lg:h-[12vh] cursor-pointer overflow-hidden p-4 bg-cover bg-center",
+        " lg:w-[15vw] w-[30vw] h-[10vh] lg:h-[15vh] cursor-pointer overflow-hidden p-4 bg-cover bg-center",
         // light styles
         "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
         // dark styles
@@ -76,9 +71,7 @@ const Row = ({
 }) => {
   return (
     <div
-      className={`flex flex-cols-1 lg:flex-cols-6 gap-10 p-4 justify-end items-end ${
-        alignRight ? 'justify-items-end' : 'justify-items-start'
-      }`}
+      className="relative overflow-hidden flex flex-cols lg:flex-cols  gap-[2vw] lg:p-[2vh] p-[1vh] justify-between items-center w-full"
     >
       {reviews.map((review) => (
         <ReviewCard key={review.username} {...review} />
@@ -89,16 +82,26 @@ const Row = ({
 
 const Interior = () => {
   return (
-    <div className="relative flex h-full w-full flex-col items-center justify-center py-20">
+    <div className=" flex h-full flex-col items-center justify-center py-20">
       <h1 className="text-6xl md:text-6xl lg:text-9xl font-custom text-center">
         Interior Solutions
       </h1>
-      <div className="relative w-full flex flex-col justify-center items-center">
+      <div className=" flex flex-col ">
+        <div className="relative lg:ml-[8vw] ml-[16vw]">
         <Row reviews={reviews} />
+        </div>
+        <div className="relative lg:mr-[8vw] mr-[16vw]">
         <Row reviews={reviews} alignRight />
+        </div>
+        <div className="relative lg:ml-[8vw] ml-[16vw]">
         <Row reviews={reviews} />
+        </div>
+        <div className="relative lg:mr-[8vw] mr-[16vw]">
         <Row reviews={reviews} alignRight />
+        </div>
+        {/* <div className="relative ml-[20vw]">
         <Row reviews={reviews} />
+        </div> */}
       </div>
     </div>
   );
