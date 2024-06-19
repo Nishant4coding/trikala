@@ -20,6 +20,7 @@ import Featured from './components/custom/Featured';
 import NRI from './components/custom/NRI';
 import Partners from './components/custom/Partners';
 import Interior from './components/custom/Interior';
+import Footer from './components/custom/Footer';
 // import IconCloud from './components/ui/icon-cloud';
 // import logo from '@/assets/logo.png';
 
@@ -53,6 +54,7 @@ function App() {
    <Interior/>
    <Partners/>
    <NRI/>
+   <Footer/>
    
    </div>
   )
