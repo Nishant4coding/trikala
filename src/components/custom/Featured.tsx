@@ -1,8 +1,9 @@
 import aesehi from "@/assets/aesehi.png";
+import Sections from "../Section";
 
 function Featured() {
   return (
-    <div>
+    <Sections>
       <div className=" lg:h-[100vh] w-full">
         {/* <img src={aesehi} alt="" className='absolute '/>
         <img src={aesehi} alt="" /> */}
@@ -26,7 +27,7 @@ function Featured() {
           </div>
         </div>
       </div>
-    </div>
+    </Sections>
   );
 }
 
