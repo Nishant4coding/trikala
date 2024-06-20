@@ -9,37 +9,37 @@ const reviews = [
   {
     name: "Jack",
     username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
+    body: "Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu ",
     img: image1,
   },
   {
     name: "Jill",
     username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
+    body: "Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu ",
     img: image2,
   },
   {
     name: "John",
     username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu ",
     img: image3,
   },
   {
     name: "Jane",
     username: "@jane",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu ",
     img: image4,
   },
   {
     name: "Jenny",
     username: "@jenny",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu ",
     img:image1,
   },
   {
     name: "James",
     username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    body: "Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu ",
     img: image2,
   },
 ];

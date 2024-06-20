@@ -37,6 +37,12 @@ const reviews = [
     body: "I'm at a loss for words. This is amazing. I love it.",
     img: image2,
   },
+  {
+    name: "James",
+    username: "@james",
+    body: "I'm at a loss for words. This is amazing. I love it.",
+    img: image2,
+  },
 ];
 
 const ReviewCard = ({
@@ -49,7 +55,7 @@ const ReviewCard = ({
   return (
     <figure
       className={cn(
-        " lg:w-[15vw] w-[30vw] h-[10vh] lg:h-[15vh] cursor-pointer overflow-hidden p-4 bg-cover bg-center",
+        " lg:w-[20vw] w-[40vw] h-[10vh] lg:h-[18vh] cursor-pointer overflow-hidden p-4 bg-cover bg-center",
         // light styles
         "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
         // dark styles
@@ -64,7 +70,7 @@ const ReviewCard = ({
 
 const Row = ({
   reviews,
-  alignRight,
+  
 }: {
   reviews: { img: string; body: string; username: string }[];
   alignRight?: boolean;
@@ -86,17 +92,17 @@ const Interior = () => {
       <h1 className="text-6xl md:text-6xl lg:text-9xl font-custom text-center">
         Interior Solutions
       </h1>
-      <div className=" flex flex-col ">
-        <div className="relative lg:ml-[8vw] ml-[16vw]">
+      <div className="w-[120vw] flex flex-col ">
+        <div className="relative lg:ml-[9vw] ml-[20vw]">
         <Row reviews={reviews} />
         </div>
-        <div className="relative lg:mr-[8vw] mr-[16vw]">
+        <div className="relative lg:mr-[9vw] mr-[18vw]">
         <Row reviews={reviews} alignRight />
         </div>
-        <div className="relative lg:ml-[8vw] ml-[16vw]">
+        <div className="relative lg:ml-[9vw] ml-[18vw]">
         <Row reviews={reviews} />
         </div>
-        <div className="relative lg:mr-[8vw] mr-[16vw]">
+        <div className="relative lg:mr-[9vw] mr-[18vw]">
         <Row reviews={reviews} alignRight />
         </div>
         {/* <div className="relative ml-[20vw]">
