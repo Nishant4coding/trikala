@@ -67,7 +67,8 @@ const ReviewCard = ({
         // light styles
         "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
         // dark styles
-        "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]"
+        "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]",
+        "shadow-md "
       )}
       style={{ backgroundColor: "white" }}
     >
@@ -91,15 +92,15 @@ const ReviewCard = ({
 
 const Testimonials = () => {
   return (
-    <div className="relative flex h-full w-full flex-col items-center justify-center py-20">
+    <div className="relative flex h-full w-full flex-col items-center justify-center ">
       <div className="flex lg:flex-row flex-col lg:gap-[20vh]">
         <h1 className="text-6xl md:text-6xl lg:text-9xl font-custom text-left">
           What Our Clients have to say
         </h1>
         <span className="w-[40vh]">Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, </span>
       </div>
-      <div className="relative">
-        <div className="absolute w-full h-full bg-gradient-to-r from-white via-transparent  to-white z-10"></div>
+      <div className="relative w-[100vw]">
+        <div className="absolute top-0 left-0 w-full h-full bg-custom-gradient z-10"></div>
         <Marquee pauseOnHover className="[--duration:20s]">
           {firstRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
