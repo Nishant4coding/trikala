@@ -36,7 +36,7 @@ function App() {
     { image: image, alt: 'Image 6' }
   ];
   return (
-    <div className='flex flex-col bg-[#FFFAED] min-h-screen font-[Roboto] px-[5vw] overflow-hidden '>
+    <div className=' bg-[#FFFFFF] font-[Roboto] px-[5vw] overflow-hidden '>
       <Nav/>
       {/* <hr className='border-custom-premium'/> */}
    <Hero/>

@@ -26,7 +26,7 @@ const ImageCarousel: React.FC<CarouselProps> = ({ items }) => {
   };
 
   return (
-    <Sections className='mt-16 md:mt-32'>
+    <Sections className=''>
       <h1 className='text-6xl md:text-6xl lg:text-9xl font-custom text-center'>Expertise</h1>
       <div className="flex items-center justify-center w-full mt-8 -mx-[5vw] relative">
         <button 
@@ -35,7 +35,7 @@ const ImageCarousel: React.FC<CarouselProps> = ({ items }) => {
         >
           &lt;--Prev
         </button>
-        <div className="relative">
+        <div className="relative w-auto">
           <div
             className="flex w-[100vw] justify-center items-center transition-transform duration-500 ease-in-out"
             style={{ transform: `translateX(calc(50% - ${activeIndex * 20}%))` }}
@@ -52,7 +52,7 @@ const ImageCarousel: React.FC<CarouselProps> = ({ items }) => {
                 <img 
                   src={item.image} 
                   alt={item.alt} 
-                  className="lg:w-[20vw] w-[500vw] lg:h-[60vh] h-[40vh] object-cover rounded-full" 
+                  className="lg:w-[40vw] w-[50vw] lg:h-[60vh] h-[40vh] object-cover rounded-full" 
                 />
               </div>
             ))}
