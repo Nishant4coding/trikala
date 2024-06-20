@@ -88,7 +88,7 @@ const Row = ({
 
 const Interior = () => {
   return (
-    <div className=" flex h-full flex-col items-center justify-center py-20">
+    <div className="h-[100vh] flex flex-col items-center justify-center py-20">
       <h1 className="text-6xl md:text-6xl lg:text-9xl font-custom text-center">
         Interior Solutions
       </h1>

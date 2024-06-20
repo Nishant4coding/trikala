@@ -21,7 +21,7 @@ function Hero() {
           <div className="font-silverqueen text-5xl md:text-[6em] lg:text-[12em] text-right tracking-wider">
             Idea to Design
           </div>
-          <img src={hero2} alt="" className='  hidden lg:w-auto lg:h-full object-cover lg:block'/>
+          <img src={hero2} alt="" className='w-full  hidden lg:w-auto lg:h-full object-cover lg:block'/>
         </div>
       </div>  
 
