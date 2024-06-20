@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Sections from '../Section';
 
 interface CarouselItem {
   image: string;
@@ -25,7 +26,7 @@ const ImageCarousel: React.FC<CarouselProps> = ({ items }) => {
   };
 
   return (
-    <section className='mt-16 md:mt-32'>
+    <Sections className='mt-16 md:mt-32'>
       <h1 className='text-6xl md:text-6xl lg:text-9xl font-custom text-center'>Expertise</h1>
       <div className="flex items-center justify-center w-full mt-8 relative">
         <button 
@@ -64,7 +65,7 @@ const ImageCarousel: React.FC<CarouselProps> = ({ items }) => {
           Next --&gt;
         </button>
       </div>
-    </section>
+    </Sections>
   );
 };
 
