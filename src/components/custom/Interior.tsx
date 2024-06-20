@@ -4,6 +4,7 @@ import image1 from '@/assets/Digit.png'; // Ensure the path to the image is corr
 import image2 from '@/assets/aesehi.png'; // Ensure the path to the image is correct
 import image3 from '@/assets/hero3.png'; // Ensure the path to the image is correct
 import image4 from '@/assets/hero4.png'; // Ensure the path to the image is correct
+import Sections from "../Section";
 
 const reviews = [
   
@@ -88,7 +89,7 @@ const Row = ({
 
 const Interior = () => {
   return (
-    <div className="h-[100vh] flex flex-col items-center justify-center py-20">
+    <Sections className="h-[100vh] flex flex-col items-center justify-center py-20">
       <h1 className="text-6xl md:text-6xl lg:text-9xl font-custom text-center">
         Interior Solutions
       </h1>
@@ -109,7 +110,7 @@ const Interior = () => {
         <Row reviews={reviews} />
         </div> */}
       </div>
-    </div>
+    </Sections>
   );
 };
 

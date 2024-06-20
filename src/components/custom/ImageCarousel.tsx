@@ -28,14 +28,14 @@ const ImageCarousel: React.FC<CarouselProps> = ({ items }) => {
   return (
     <Sections className='mt-16 md:mt-32'>
       <h1 className='text-6xl md:text-6xl lg:text-9xl font-custom text-center'>Expertise</h1>
-      <div className="flex items-center justify-center w-full mt-8 relative">
+      <div className="flex items-center justify-center w-full mt-8 -mx-[5vw] relative">
         <button 
           onClick={handlePrevClick} 
           className="bg-gray-600 bg-opacity-20 text-custom-db rounded-full font-bold p-2 absolute left-4 z-20 md:block hidden"
         >
           &lt;--Prev
         </button>
-        <div className="relative  overflow-hidden">
+        <div className="relative">
           <div
             className="flex w-[100vw] justify-center items-center transition-transform duration-500 ease-in-out"
             style={{ transform: `translateX(calc(50% - ${activeIndex * 20}%))` }}

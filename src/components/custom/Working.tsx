@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import hero5 from "@/assets/hero3.png";
+import Sections from "../Section";
 
 const Working: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -17,7 +18,7 @@ const Working: React.FC = () => {
     },
     {
       image: hero5,
-      heading: "Heading ",
+      heading: "Heading",
       description: "Description for the third image.",
     },
     {
@@ -47,7 +48,7 @@ const Working: React.FC = () => {
   };
 
   return (
-    <div className="max-h-screen w-full mx-auto mt-8 md:mt-16">
+    <Sections className="max-h-screen w-full mx-auto mt-8 md:mt-16">
       <div className="flex flex-col md:flex-row justify-between gap-6 md:gap-20">
         <h1 className="text-left text-6xl md:text-6xl lg:text-9xl font-custom flex-none">
           Our method of <br className="md:block hidden" /> working
@@ -114,7 +115,7 @@ const Working: React.FC = () => {
           ></button>
         ))}
       </div> */}
-    </div>
+      </Sections>
   );
 };
 

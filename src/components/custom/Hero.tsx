@@ -6,10 +6,11 @@ import hero2 from '@/assets/hero2.png';
 import hero3 from '@/assets/hero3.png';
 import hero4 from '@/assets/hero4.png';
 import hero5 from '@/assets/hero5.png';
+import Sections from '../Section';
 
 function Hero() {
   return (
-    <section className='lg:min-h-screen font-custom'>
+    <Sections className='lg:min-h-screen font-custom'>
       <div className="flex flex-col lg:justify-between text-custom-db gap-5 lg:gap-10  lg:h-[50vh]">
         <div className='flex flex-col lg:flex-row justify-between'>
           <div className="font-silverqueen text-custom-db text-5xl md:text-[6em] lg:text-[12em] text-left tracking-wider">
@@ -48,7 +49,7 @@ function Hero() {
       <div className='hidden'>
         <Lead />
       </div>
-    </section>
+    </Sections>
   );
 }
 

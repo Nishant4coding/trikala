@@ -1,5 +1,6 @@
 import NumberTicker from "@/components/ui/number-ticker";
 import bg from "@/assets/Digit.png";
+import Sections from "../Section";
 // import IconCloud from '@/components/ui/icon-cloud';
 // import logo from '@/assets/logo.png';
 
@@ -38,7 +39,7 @@ function Digit() {
   // ];
 
   return (
-    <section className="lg:max-h-screen mt-32">
+    <Sections className="lg:max-h-screen mt-32">
       <h1 className="text-6xl md:text-6xl lg:text-9xl font-custom text-center">
         At a Glance
       </h1>
@@ -72,7 +73,7 @@ function Digit() {
           </div>
         </div>
       </div>
-    </section>
+    </Sections>
   );
 }
 

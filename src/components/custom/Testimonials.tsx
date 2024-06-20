@@ -4,6 +4,7 @@ import image1 from '@/assets/Digit.png'; // Ensure the path to the image is corr
 import image2 from '@/assets/aesehi.png'; // Ensure the path to the image is correct
 import image3 from '@/assets/hero3.png'; // Ensure the path to the image is correct
 import image4 from '@/assets/hero4.png'; // Ensure the path to the image is correct
+import Sections from "../Section";
 
 const reviews = [
   {
@@ -92,7 +93,7 @@ const ReviewCard = ({
 
 const Testimonials = () => {
   return (
-    <div className="relative flex h-full w-full flex-col items-center justify-center ">
+    <Sections className="relative flex h-full w-full flex-col items-center justify-center ">
       <div className="flex lg:flex-row flex-col lg:gap-[20vh]">
         <h1 className="text-6xl md:text-6xl lg:text-9xl font-custom text-left">
           What Our Clients have to say
@@ -115,7 +116,7 @@ const Testimonials = () => {
 
       {/* <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>
       <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white dark:from-background"></div> */}
-    </div>
+    </Sections>
   );
 };
 
