@@ -1,5 +1,4 @@
 
-// @ts-ignore
 import './App.css'
 import Hero from '@/components/custom/Hero'
 // import Lead from '@/components/custom/Lead'
@@ -21,6 +20,8 @@ import NRI from './components/custom/NRI';
 import Partners from './components/custom/Partners';
 import Interior from './components/custom/Interior';
 import Footer from './components/custom/Footer';
+import HeroCarousel from './components/custom/HeroCarousel';
+import Lead from './components/custom/Lead';
 // import IconCloud from './components/ui/icon-cloud';
 // import logo from '@/assets/logo.png';
 
@@ -40,11 +41,13 @@ function App() {
       <Nav/>
       {/* <hr className='border-custom-premium'/> */}
    <Hero/>
+   <Lead/>
    <Featured/>
    <Digit/>
 
 
    <ImageCrowsell items={items}/>
+   <HeroCarousel/>
    {/* <BlendImage/> */}
    {/* <SwitchingTabs/> */}
    {/* <Landing/> */}

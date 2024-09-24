@@ -57,10 +57,11 @@ const Working: React.FC = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
           dolorum nihil tempore corrupti culpa blanditiis, iusto modi nam,
           dignissimos quia enim ipsum ipsa reiciendis provident architecto sequi
-          ab nisi commodi?
+          ab nisi commodi?  
         </span>
       </div>
       <div className="relative flex items-left">
+
         <button
           onClick={prevSlide}
           className="absolute text-2xl text-white right-16 z-10 p-2 bg-custom-lb w-12 h-12 rounded-full"
